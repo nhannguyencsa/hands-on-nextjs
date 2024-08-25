@@ -77,4 +77,5 @@
   .text-mini {
     @apply text-xs;
   }
+  
 }
