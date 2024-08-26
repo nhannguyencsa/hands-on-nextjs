@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <h1 className='text-4xl font-thin text-center'>
+      <h1 className='font-sans text-4xl text-center'>
         Hello everyone, I am Nhan!
       </h1>
     </main>
