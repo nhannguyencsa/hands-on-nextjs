@@ -8,12 +8,13 @@ export default function Home() {
     <main>
       <div className='w-[700px] h-[700px] bg-red-300'>
         <Image 
-          src="/images/flower.jpg" alt="flower"
+          src="https://images.pexels.com/photos/26690851/pexels-photo-26690851/free-photo-of-close-up-of-a-bee-sitting-on-a-flower.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="flower"
           width={200}
           height={200}
           quality={70}
           priority={true}
-          className="w-[400px]"
+          className="w-[300px] h-[300px]"
+          title="sun flower"
         />
       </div>
     </main>
