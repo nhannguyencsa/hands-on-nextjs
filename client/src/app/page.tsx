@@ -6,9 +6,16 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <h1 className='font-sans text-4xl text-center'>
-        Hello everyone, I am Nhan!
-      </h1>
+      <div className='w-[700px] h-[700px] bg-red-300'>
+        <Image 
+          src="/images/flower.jpg" alt="flower"
+          width={200}
+          height={200}
+          quality={70}
+          priority={true}
+          className="w-[400px]"
+        />
+      </div>
     </main>
   );
 }
